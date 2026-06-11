@@ -6,7 +6,7 @@ from data.data_loader import load_data
 
 
 def show():
-    st.title("📈 Score Trends")
+    st.title(" Score Trends")
     st.markdown("How ERC performance metrics have shifted across competition years.")
     st.markdown("---")
 
