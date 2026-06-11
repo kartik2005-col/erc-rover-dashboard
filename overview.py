@@ -6,7 +6,7 @@ from data.data_loader import load_data
 
 
 def show():
-    st.title("🤖 ERC Rover Intelligence Dashboard")
+    st.title(" ERC Rover Intelligence Dashboard")
     st.markdown("**European Rover Challenge — Historical Selection Analysis**")
     st.markdown("---")
 
