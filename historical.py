@@ -6,7 +6,7 @@ from data.data_loader import load_data
 
 
 def show():
-    st.title("📊 Historical Analysis")
+    st.title(" Historical Analysis")
     st.markdown("Explore how rover specs relate to selection outcomes across years.")
     st.markdown("---")
 
