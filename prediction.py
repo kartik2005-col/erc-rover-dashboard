@@ -7,7 +7,7 @@ from models.selection_model import get_trained_model, reset_model
 
 
 def show():
-    st.title("🧠 AI Selection Predictor")
+    st.title(" AI Selection Predictor")
     st.markdown("Enter your rover's design parameters and get an estimated selection probability.")
     st.markdown("---")
 
@@ -42,7 +42,7 @@ def show():
 
     st.markdown("---")
 
-    if st.button("🔍 Predict Selection Probability", type="primary"):
+    if st.button(" Predict Selection Probability", type="primary"):
         input_data = {
             "weight_kg": weight,
             "sensor_payload_score": sensor_score,
@@ -62,13 +62,13 @@ def show():
             # color based on probability
             if prob >= 0.7:
                 color = "green"
-                verdict = "High chance of selection ✅"
+                verdict = "High chance of selection "
             elif prob >= 0.45:
                 color = "orange"
-                verdict = "Borderline — could go either way ⚠️"
+                verdict = "Borderline — could go either way "
             else:
                 color = "red"
-                verdict = "Low selection probability ❌"
+                verdict = "Low selection probability "
 
             col_res1, col_res2 = st.columns([1, 2])
             with col_res1:
